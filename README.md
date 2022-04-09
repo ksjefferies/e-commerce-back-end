@@ -43,7 +43,7 @@ E-Commerce site that manages a company database.
 
 Video of Employee Management and Tracking System:
 
-- [Media of Employee Management and Tracking System Usage](https://drive.google.com/file/d/12-hkEQcE7EBOu2ZaqYYxTaaAUpZUxVcs/view?usp=sharing
+- [Media of Employee Management and Tracking System Usage](https://drive.google.com/file/d/12-hkEQcE7EBOu2ZaqYYxTaaAUpZUxVcs/view?usp=sharing)
 
 ----
 ## Github Repository:
