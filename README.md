@@ -1,4 +1,4 @@
-# e-commerce-back-end# e-commerce-back-end
+# e-commerce-back-end
 -------
 
 ## Table of Content
@@ -41,8 +41,6 @@ E-Commerce site that manages a company database.
 ------
 ## Media:
 
-![Image of ecommerce_db-back-end](./assets/images/EMTS.jpg)
-
 Video of Employee Management and Tracking System:
 
 - [Media of Employee Management and Tracking System Usage](https://drive.google.com/file/d/12-hkEQcE7EBOu2ZaqYYxTaaAUpZUxVcs/view?usp=sharing
@@ -66,7 +64,7 @@ Video of Employee Management and Tracking System:
 - Node
 - dotenv
 - Sequelize
-- [Express.js](https://expressjs.com/)
+- Express.js
 - Blood Sweat and Tears
 
 ## License:
