@@ -111,6 +111,9 @@ router.put('/:id', (req, res) => {
       // get list of current tag_ids
       const productTagIds = productTags.map(({ tag_id }) => tag_id);
       // create filtered list of new tag_ids
+
+      // Works: req.body.tagIDs.filter((tag_id) => !productTagIds.includes(tag_id))
+      // no work:  req.body.tagIds.filter(tag_id => !productTagIds.includes(tag_id))
       const newProductTags = req.body.tagIds
         .filter((tag_id) => !productTagIds.includes(tag_id))
         .map((tag_id) => {
@@ -132,7 +135,7 @@ router.put('/:id', (req, res) => {
     })
     .then((updatedProductTags) => res.json(updatedProductTags))
     .catch((err) => {
-      // console.log(err);
+      console.log(err);
       res.status(400).json(err);
     });
 });
@@ -145,10 +148,11 @@ router.delete('/:id', async (req, res) => {
         id: req.params.id
       }
     })
-    if (destroyProduct) {
+    if (!destroyProduct) {
       res.status(400).json({ message: "No product found" })
+    } else {
+      res.json(destroyProduct)
     }
-    res.json(destroyProduct)
   }
   catch (err) {
     console.log(err);
