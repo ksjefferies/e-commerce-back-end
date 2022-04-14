@@ -65,7 +65,6 @@ Video of Employee Management and Tracking System:
 - dotenv
 - Sequelize
 - Express.js
-- Blood Sweat and Tears
 
 ## License:
 
