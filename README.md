@@ -1,6 +1,6 @@
 # e-commerce-back-end
--------
 
+-------
 ## Table of Content
 
 - [Description](#description)
@@ -45,7 +45,6 @@ Video of Employee Management and Tracking System:
 
 - [Media of Employee Management and Tracking System Usage](https://drive.google.com/file/d/12-hkEQcE7EBOu2ZaqYYxTaaAUpZUxVcs/view?usp=sharing)
 
-----
 ## Github Repository:
 
 - [Github Repository for e-commerce-back-end](https://github.com/ksjefferies/e-commerce-back-end)
@@ -54,20 +53,13 @@ Video of Employee Management and Tracking System:
 
 - [Kelly Jefferies](https://github.com/ksjefferies)
 
-## Contributors
-
-- Eugene Ahn
-- Daniel Norred
-
 ## Technologies Used:
-- Javascript
-- Node
-- dotenv
-- Sequelize
-- Express.js
+
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
+![express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
 ## License:
 
 [![License](https://img.shields.io/badge/License-MIT%20License-Green)](http://choosealicense.com/licenses/mit/)
-
-
